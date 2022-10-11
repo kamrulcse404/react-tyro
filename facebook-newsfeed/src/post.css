@@ -1,19 +1,25 @@
-.container {
+body{
     background-color: #F0F2F5;
 }
 
+/* .container {
+    align-content: center;
+} */
+
 .post-wrapper {
+    align-content: center;
     background-color: #fff;
     padding: 30px 10;
     border: 1px solid lightgray;
     width: 500px;
     padding: 30px;
     margin: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
+    /* position: relative; */
 }
 
 .post-content {
-    margin-top: 30px;
+    margin-top: 25px;
     border-left: 3px solid lightgrey;
     padding-left: 20px;
 }
@@ -35,8 +41,14 @@ h2 {
 }
 
 .social {
-    margin-top: 30px;
+    margin-top: 25px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
-    padding: 8px 0;
+    padding: 5px;
 }
+
+/* .settings {
+    position: relative;
+    top: 0;
+    right: 0;
+} */
